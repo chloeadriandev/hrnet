@@ -1,16 +1,54 @@
 ![Banner](READMEbanner.jpg)
 
-## Presentation
-*This is a fictional project, which was project 14 of my OpenClassrooms front-end development program. You can visit the website [here](https://hrnet.chloeadrian.dev/)! Because of the scope of the project, it is best viewed on larger screens.*\
-HRNet is a human resources app that allows users to view and sort a list of employees, as well as add some. It was originally made with jQuery, and I was asked to remake it with React and Redux. I could choose one of four components to make into a custom React library: the select form field, the date picker, the validation modal, and the employee table. I chose the table, which you can find and add to your own React projects [here](https://www.npmjs.com/package/@chloeadriancreates/custom-react-table). This 18kb component allows you to display complex data in a clean, color-customizable table, complete with pagination, a search system, and sorting by each category. I used Material UI for the three other components.
+# 🧾 HRNet
 
-## Prerequisites
-- [NodeJS (version 16.17.0)](https://nodejs.org/en/)
-- [NPM (version 9.4.0)](https://www.npmjs.com/)
+**A modern React remake of a fictional human resources management app, featuring a custom data table component.**  
+Created in 2023 as part of my front-end development studies.
 
-## Getting started
-- Run `$ npm install` to install all dependencies
-- Run `$ npm start` to see the project!
+---
 
-## Thanks for reading, and happy coding!  
-Chloé Adrian
+## 🌟 Overview
+HRNet is a human resources management platform that allows users to **add, view, and sort employees** through a clean, accessible interface.  
+
+Originally built with **jQuery**, the project was **fully remade with React, Redux, and Material UI** to modernize its architecture and improve accessibility, performance, and scalability.  
+
+As part of the project, I also developed a **custom React table component**, later published as an [NPM package](https://www.npmjs.com/package/@chloeadriancreates/custom-react-table).  
+This lightweight (18 KB) component supports pagination, search, and column sorting — all color-customizable and accessible by design.
+
+---
+
+## 🖥️ Live demo
+👉 [**Visit HRNet**](https://hrnet.chloeadrian.dev/)  
+
+You can also see its dedicated project page on my [**portfolio**](https://chloeadrian.dev/en/project/hrnet).
+
+---
+
+## ⚙️ Tech stack
+- **React** for modern front-end architecture  
+- **Redux** for global state management  
+- **Material UI** for prebuilt accessible UI components  
+- **Sass** for styling consistency  
+- **Custom React Table** ([see package](https://github.com/chloeadriancreates/custom-react-table)) for data display  
+
+---
+
+## 🧠 Key features
+- Add new employees through a validated form  
+- Search and sort through existing employee records  
+- Clean, accessible interface built with React and Material UI  
+- Custom React table supporting pagination and search  
+- Modular component structure for scalability  
+
+---
+
+## 🕊️ Reflection
+This project was a turning point in learning **how to refactor legacy code into modern frameworks**.  
+Building the **Custom React Table** as a reusable package also deepened my understanding of **modular design, performance optimization, and API flexibility** in the React ecosystem.
+
+Because of the app’s layout and table-heavy content, it is best viewed on larger screens.
+
+---
+
+Thanks for reading, and happy coding!  
+Chloé Adrian ✨ 
